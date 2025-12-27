@@ -1,0 +1,17 @@
+.hero {
+    background: #2566E3;
+    background: linear-gradient(90deg,rgba(37, 102, 227, 1) 50%, rgba(31, 187, 140, 1) 80%);
+    display: grid;
+    grid-template-columns: 55% 45%;
+    gap: 20px;
+    border-radius: 20px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+

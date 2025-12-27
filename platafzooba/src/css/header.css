@@ -15,7 +15,7 @@ header {
         padding: 20px;
         width: auto;
         height: 70px;
-        border-radius: 10px 0px 0px 10px;
+        border-radius: 10px 0px 0px 0px;
         position: relative;
 
         img {
@@ -25,6 +25,7 @@ header {
         &::before {
             content: '';
             display: block;
+            width: 100%;
             background: var(--azul-secundario);
             height: 20px;
             position: absolute;
