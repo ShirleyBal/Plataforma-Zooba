@@ -91,7 +91,6 @@
         .slideshow {
             /* position: absolute; 
             top: -20px; */
-
             position: relative;
             width: 100%;
             overflow: hidden;
@@ -141,6 +140,34 @@
                     }
 
                 }
+            }
+        }
+    }
+
+    .overlay-video {
+        background: rgba(0, 0, 0, 0.9);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        
+        &.active {
+            display: flex;
+        }
+
+        .video {
+            width: 90%;
+            max-width: 900px;
+            /* background: #fff; */
+
+            iframe {
+                width: 100%;
+                vertical-align: top;
+                aspect-ratio: 16/9;
             }
         }
     }
