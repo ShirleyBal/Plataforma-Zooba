@@ -1,0 +1,22 @@
+.precios {
+    margin-bottom: 100px;
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        .plan {
+            background: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column; 
+            gap: 30px;
+            border: 1px solid transparent;
+            transition: 0.3 ease all;
+
+            &:hover {
+                border: 1px solid var(--azul-primario);
+            }
+        }
+    }
+}
