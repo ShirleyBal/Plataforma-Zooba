@@ -25,6 +25,7 @@
     font-weight: 400;
     text-align: left;
     margin: 0;
+    color: #fff;
 }
 .hero .col-1 .descripcion {
     font-size: 18px;
@@ -70,6 +71,7 @@
     display: block;
     width: 24px;
     height: 24px;
+    color: #fff;
 }
 .hero .col-1 .estadisticas .icono svg {
     width: 100%;

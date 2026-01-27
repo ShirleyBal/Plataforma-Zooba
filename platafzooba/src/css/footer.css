@@ -1,0 +1,31 @@
+.footer {
+    background: var(--azul-secundario);
+    color: #fff;
+    padding: 20px;
+    border-radius: 7px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .logo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .logo img {
+    width: 3vw;
+    max-width: 100px;
+}
+
+.footer .links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer .links a {
+    color: #fff;
+}

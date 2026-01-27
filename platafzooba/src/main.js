@@ -5,6 +5,7 @@ import './css/header.css';
 import './css/hero.css';
 import './css/caracteristicas.css';
 import './css/precios.css';
+import './css/footer.css';
 
 
 

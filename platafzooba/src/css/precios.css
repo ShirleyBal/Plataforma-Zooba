@@ -1,22 +1,68 @@
+.precios .grid .plan.destacado {
+    background: var(--azul-secundario);
+    color: #fff;
+}
+
+.destacado .precio span {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 .precios {
     margin-bottom: 100px;
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        .plan {
-            background: #fff;
-            border-radius: 5px;
-            padding: 20px;
-            display: flex;
-            flex-direction: column; 
-            gap: 30px;
-            border: 1px solid transparent;
-            transition: 0.3 ease all;
+    font-weight: 700;
+    font-size: 32px;
+}
 
-            &:hover {
-                border: 1px solid var(--azul-primario);
-            }
-        }
-    }
+.precios .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+span {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.descripcion {
+    line-height: 150%;
+}
+
+.precios .grid .plan {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    transition: 0.3s ease all;
+    gap: 8px;
+}
+
+.precios .grid .plan:hover {
+    border: 1px solid var(--azul-primario);
+}
+
+.precios .grid .plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.precios .grid .plan li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px; 
+}
+
+.precios .grid .plan button {
+    margin-top: auto; 
+}
+
+.icono-precio {
+    display: flex;
+    align-items: center;
+    color: var(--azul-primario);
 }
