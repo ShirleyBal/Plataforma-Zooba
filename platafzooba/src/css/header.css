@@ -10,7 +10,6 @@ header {
     justify-content: space-between;
 }
 
-/* LOGO */
 header .logo {
     display: inline-block;
     background: var(--azul-secundario);
@@ -65,4 +64,36 @@ header .navbar a.boton {
 
 header .navbar a.boton svg {
     color: white;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    .contenedor-header {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    header .logo {
+        border-radius: 5px;
+        height: 60px;
+    }
+
+    header .logo::before,
+    header .logo::after {
+        display: none;
+    }
+
+    header .navbar {
+        margin-bottom: 20px;
+        padding: 10px;
+    }
 }
